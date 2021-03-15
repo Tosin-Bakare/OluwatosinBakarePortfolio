@@ -1,3 +1,11 @@
+:root {
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+  --xxl: 1400px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -73,7 +81,7 @@ h6 {
 }
 
 #header .profile img {
-  margin: 15px auto;
+  margin: 50px auto;
   display: block;
   width: 120px;
   border: 8px solid #2c2f3f;
@@ -252,6 +260,20 @@ h6 {
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  width: 270px;
+}
+
+.hero-container a {
+  text-align: center;
+}
+.hero-btn {
+  padding: 10px;
+  width: 180px;
+  background-color: rgb(20, 157, 221);
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-top: 25px;
 }
 
 #hero p span {
@@ -376,23 +398,34 @@ section {
   margin-top: 25px;
 }
 
+.portrait-img {
+  height: auto;
+  width: 100%;
+}
+
+.portrait {
+  width: 90%;
+  /* margin: 0 10px; */
+}
+
 @media (max-width: 768px) {
   .aboutcontent {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .abouttext {
     padding-top: 20px;
-    align-content: center;
     font-size: 15px;
-    margin-top: 200px;
+    margin-top: 20px;
     line-height: 26px;
   }
   .resume {
     margin-left: 80px;
   }
+}
+@media (max-width: 992px) {
   .portrait {
-    width: 100px;
-    height: 400px;
   }
 }
 
