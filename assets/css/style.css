@@ -434,8 +434,11 @@ section {
   }
 }
 @media (max-width: 992px) {
-  /* .portrait {
-  } */
+  .abouttextdiv {
+    width: auto;
+    padding-left: 20px;
+    /* margin-top: 50%; */
+  }
 }
 
 /*--------------------------------------------------------------
